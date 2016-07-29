@@ -1,0 +1,15 @@
+.jumbotron h1 {
+  font-size: 8.00em;
+  font-style: 800;
+  color: #f8f8f8;
+}
+
+.big-name {
+  /* color: #FF0000; # You have to force this to work by extending .jumbotron */
+  font-family: "Poiret One";
+}
+
+.fancy {
+  font-family: "Poiret One";
+  color: #f8f8f8;
+}

@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+
+  {% include head.html %}
+
+  <body>
+
+    {% include nav.html %}
+
+    {% include jumbotron.html %}
+
+    <div class="container">
+
+      <!-- Example row of columns -->
+      <div class="row">
+        <div class="col-xs-12">
+          {% include lorem.html %}
+          {{ content }}
+        </div>
+      </div>
+
+      <hr>
+
+      {% include footer.html %}
+
+    </div><!-- /container -->
+
+  </body>
+
+</html>
